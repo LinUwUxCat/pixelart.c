@@ -11,7 +11,7 @@ read(f,&c,1)){if(c==10){++r;if(s>l)l=s
 &k,r>>8&k,r>>16&k,r>>24&k,1,0,24,0,0,0
 ,0,0,d&k,d>>8&k,d>>16&k,d>>24&k,19,11,
 0,0,19,11};lseek(f,0,0);for(;i<54;i++)
-P(h[i]);while(d=read(f,&c,1)){if(c!=10
-)for(i=0;i<3;i++){P(a[c][i]-1);s++;}
-else{for(;s<o;s++)P(0);s=0;}}for(;s<o;
-s++)P(0);close(f);}
+P(h[i]);while(read(f,&c,1)){if(c!=10)
+for(i=0;i<3;i++){P(a[c][i]-1);s++;}else
+{for(;s<o;s++)P(0);s=0;}}for(;s<o;s++)
+P(0);close(f);}
